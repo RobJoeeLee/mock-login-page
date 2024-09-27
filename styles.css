@@ -5,6 +5,7 @@
 
 :root {
     --login-container-hsl: 0, 100%, 100%;
+    --left-side-container-hsl: 164, 64%, 42%;
 }
 
 body{
@@ -31,8 +32,25 @@ body{
     background-color: hsla(var(--login-container-hsl), 0.8);
     height: 90%;
     width: 90%;
-    padding: 2rem;
-    gap: 10rem;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.168);
+}
+
+.left-side-container {
+    background-color: hsla(var(--left-side-container-hsl), 0.8);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-side-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
