@@ -107,5 +107,23 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+}
+
+.sign-up-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    background-color: hsla(var(--left-side-container-hsl), 0.8);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid white;
+    margin-top: 20px;
 }
