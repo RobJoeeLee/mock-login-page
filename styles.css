@@ -71,7 +71,7 @@ body {
     justify-content: center;
     font-size: large;
     color: white;
-    background-color: hsla(var(--left-side-container-hsl), 0.7);
+    background-color: hsla(var(--left-side-container-hsl), 0.8);
     border-radius: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -91,4 +91,21 @@ body {
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.right-side-title {
+    color: hsla(var(--left-side-container-hsl), 0.8);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.right-side-message {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
