@@ -3,6 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --login-container-hsl: 0, 100%, 100%;
+}
+
 body{
     margin: 0;
 }
@@ -24,5 +28,5 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50%;
+    background-color: hsla(var(--login-container-hsl), 0.8) ;
 }
