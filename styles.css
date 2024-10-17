@@ -124,3 +124,21 @@ body {
     border: 1px solid grey;
     border-radius: 5px;
 }
+
+@media (max-width: 550px) {
+    .login-container {
+        flex-direction: column;
+        height: auto;
+        width: 90%;;
+    }
+
+    .left-side-container, .right-side-container {
+        border-radius: 0; /* Remove the rounded corners when stacked */
+        border-top-left-radius: 15px; /* Add rounded corners to top of the first container */
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0;
+        width: 100%;
+        height: auto;
+    }
+}
